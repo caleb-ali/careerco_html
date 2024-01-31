@@ -101,6 +101,8 @@ a:visited {
   color: #6f7071;
 }
 
+/* logo scoller start */
+
 .logo-scroller {
   width: 100%;
   overflow: hidden;
@@ -132,6 +134,8 @@ a:visited {
   }
 }
 
+/* logo scroller end */
+
 .hero3 {
   display: flex;
   flex-direction: column;
@@ -141,6 +145,8 @@ a:visited {
   text-align: center;
   gap: 2rem;
 }
+
+
 
 .hero4 {
   display: flex;

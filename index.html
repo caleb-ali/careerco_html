@@ -16,39 +16,39 @@
     <header-component></header-component>
     <div class="hero1">
         <div class="hero_left">
-          <h1>
-            Acquire tech skills through
-            <br /> experiential learning.
-          </h1>
-          <p>
-            We provide diverse courses for individuals with zero or <br />
-            some experience with hands-on practical, resume prep,
-            <br />
-            interview prep, and personalized support.
-          </p>
+            <h1>
+                Acquire tech skills through
+                <br /> experiential learning.
+            </h1>
+            <p>
+                We provide diverse courses for individuals with zero or <br />
+                some experience with hands-on practical, resume prep,
+                <br />
+                interview prep, and personalized support.
+            </p>
 
 
-          <div class="hero_btn">
-            <button class="join">
-              <a>Get Started</a>
-            </button>
-            <button class="btn2">
-              <a>Speak to a Coach</a>
-            </button>
-          </div>
-          <div class="accredited">
-            <p>Accredited by </p>
-            <img src="images/iiba.svg" />
-            <p>CBAP CCBA ECBA AAC</p>
-          </div>
+            <div class="hero_btn">
+                <button class="join">
+                    <a>Get Started</a>
+                </button>
+                <button class="btn2">
+                    <a>Speak to a Coach</a>
+                </button>
+            </div>
+            <div class="accredited">
+                <p>Accredited by </p>
+                <img src="images/iiba.svg" />
+                <p>CBAP CCBA ECBA AAC</p>
+            </div>
         </div>
         <div>
-          <img src="/images/mobileheroimg.svg" class="mob_hero_img" />
-          <img src="images/hero.svg" class="hero_image" />
+            <img src="/images/mobileheroimg.svg" class="mob_hero_img" />
+            <img src="images/hero.svg" class="hero_image" />
         </div>
-      </div>
+    </div>
 
-      <div class="hero2">
+    <div class="hero2">
         <h4>Trained Alumni that working in these companies</h4>
         <div class="logo-scroller">
             <div class="logo-container">
@@ -63,198 +63,190 @@
                 <img src="images/logo9.svg" alt="Image 9">
                 <img src="images/logo10.svg" alt="Image 10">
             </div>
-         
-           
+
+
         </div>
-      </div>
-      <div class="hero3">
+    </div>
+    <div class="hero3">
         <h2>Choose a Course</h2>
         <p>
-          Strengthen your employability with the tech skills and experience
-          <br />
-          required to succeed on the job.
+            Strengthen your employability with the tech skills and experience
+            <br />
+            required to succeed on the job.
         </p>
-        <Carousel items={items} />
-      </div>
-      <div class="hero4">
+        <!-- <Carousel items={items} /> -->
+        <div class="carousel-container">
+            <img src="/images/back.svg" id="goBack" class='back_btn' />
+            <div class="carousel" id="carousel">
+                <!-- Carousel items will be added here by JavaScript -->
+            </div>
+            <img src="/images/front.svg" id="goForward" class='forward_btn' />
+        </div>
+        <div class="mobcarousel-container">
+            <img src="/images/back.svg" id="goBack" class='back_btn' />
+            <div class="carousel" id="carousel">
+                <!-- Carousel items will be added here by JavaScript -->
+            </div>
+            <img src="/images/front.svg" id="goForward" class='forward_btn' />
+        </div>
+    </div>
+    <div class="hero4">
         <h2>Not Sure Where to Begin</h2>
         <p class="hero4_p">
-          If you are unsure about which path to take, book a session with our
-          <br />
-          professional career coach for any career advice or support.
+            If you are unsure about which path to take, book a session with our
+            <br />
+            professional career coach for any career advice or support.
         </p>
         <div class="card_container">
-          <div class="card2">
-            <img src="/images/counseling.svg" height="230rem" />
-            <h4>
-              Career <br />
-              Counseling
-            </h4>
-            <p>
-              Our Expert Counsellors Provides Personalised
-              <br />
-              Career Guidiance And Advice To Help You Make
-              <br />
-              Informed Choices.
-            </p>
-            <div class="home_btns">
-              <button class="card_btn">
-                <a
-                  href="https://www.careerco.ca/booking/?v=707f3a40153b"
-                  target="blank"
-                >
-                  Book a session
-                </a>
-              </button>
-              <button class="btn2">
-                <a>Take a quiz</a>
-              </button>
+            <div class="card2">
+                <img src="/images/counseling.svg" height="230rem" />
+                <h4>
+                    Career <br />
+                    Counseling
+                </h4>
+                <p>
+                    Our Expert Counsellors Provides Personalised
+                    <br />
+                    Career Guidiance And Advice To Help You Make
+                    <br />
+                    Informed Choices.
+                </p>
+                <div class="home_btns">
+                    <button class="card_btn">
+                        <a href="https://www.careerco.ca/booking/?v=707f3a40153b" target="blank">
+                            Book a session
+                        </a>
+                    </button>
+                    <button class="btn2">
+                        <a>Take a quiz</a>
+                    </button>
+                </div>
             </div>
-          </div>
-          <div class="card2">
-            <img src="./images/interview.svg" height="230rem" />
-            <h4>
-              Prepare For Your Next
-              <br /> Interview
-            </h4>
-            <p>
-              Build your confidence and gain effective
-              <br /> interview strategies to communicate your values
-              <br /> and impress potential employers.
-            </p>
-            <div class="card_btn_ctn">
-              <button class="card_btn">
-                <a
-                  href="https://www.careerco.ca/booking/?v=707f3a40153b"
-                  target="blank"
-                >
-                  Book a spot
-                </a>
-              </button>
+            <div class="card2">
+                <img src="./images/interview.svg" height="230rem" />
+                <h4>
+                    Prepare For Your Next
+                    <br /> Interview
+                </h4>
+                <p>
+                    Build your confidence and gain effective
+                    <br /> interview strategies to communicate your values
+                    <br /> and impress potential employers.
+                </p>
+                <div class="card_btn_ctn">
+                    <button class="card_btn">
+                        <a href="https://www.careerco.ca/booking/?v=707f3a40153b" target="blank">
+                            Book a spot
+                        </a>
+                    </button>
+                </div>
             </div>
-          </div>
-          <div class="card2">
-            <img src="images/writers.svg" height="230rem" />
-            <h4>
-              Craft Standout Resume <br />
-              With Our Writers
-            </h4>
-            <p>
-              Craft resume that highlight your skills, your
-              <br />
-              experience, and achievements. Stand out from the
-              <br />
-              crowd and make a lasting impression.
-            </p>
-            <div class="card_btn_ctn">
-              <button class="card_btn">
-                <a
-                  href="https://www.careerco.ca/booking/?v=707f3a40153b"
-                  target="blank"
-                >
-                  Book a spot
-                </a>
-              </button>
+            <div class="card2">
+                <img src="images/writers.svg" height="230rem" />
+                <h4>
+                    Craft Standout Resume <br />
+                    With Our Writers
+                </h4>
+                <p>
+                    Craft resume that highlight your skills, your
+                    <br />
+                    experience, and achievements. Stand out from the
+                    <br />
+                    crowd and make a lasting impression.
+                </p>
+                <div class="card_btn_ctn">
+                    <button class="card_btn">
+                        <a href="https://www.careerco.ca/booking/?v=707f3a40153b" target="blank">
+                            Book a spot
+                        </a>
+                    </button>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-      <div class="hero5">
+    </div>
+    <div class="hero5">
         <div class="hero5_left">
-          <h1>
-            We Assist Immigrant &<br /> Individuals In Navigating
-            <br /> The Job Market.
-          </h1>
-          <p>
-            We understand the unique challenges faced by new immigrants in
-            <br />
-            finding suitable employment. Ourcomprehensive programs are
-            <br />
-            designed to equip youwith the skills, knowledge, and connections
-            <br />
-            necessaryto excel in your chosen field.
-          </p>
-          <button class="join">
-            <a>Read Testimonials</a>
-          </button>
+            <h1>
+                We Assist Immigrant &<br /> Individuals In Navigating
+                <br /> The Job Market.
+            </h1>
+            <p>
+                We understand the unique challenges faced by new immigrants in
+                <br />
+                finding suitable employment. Ourcomprehensive programs are
+                <br />
+                designed to equip youwith the skills, knowledge, and connections
+                <br />
+                necessaryto excel in your chosen field.
+            </p>
+            <button class="join">
+                <a>Read Testimonials</a>
+            </button>
         </div>
         <div class="hero5_background">
-          <img src="images/rings.svg" width="30%" class="hero5_rings" />
-          <img src="/images/phone.svg" width="40%" class="hero5_phone" />
+            <img src="images/rings.svg" width="30%" class="hero5_rings" />
+            <img src="/images/phone.svg" width="40%" class="hero5_phone" />
         </div>
-      </div>
-      <div class="hero6">
+    </div>
+    <div class="hero6">
         <div class="hero6_left">
-          <h1>
+            <h1>
+                Transition Into a Tech <br />
+                Career Of Interest Easily
+            </h1>
+            <p>
+                We offer a wide range of courses and programs tailored to your
+                specific interests, helping you acquire
+                <br />
+                the expertise and confidence to pursue your desired career path and
+                make a successful transition.
+            </p>
+            <img src="/images/transition.svg" class="hero6_img" />
+        </div>
+        <div class="hero6_background">
+            <img src="/images/line.svg" class="hero6_line" />
+            <img src="/images/line.svg" class="hero6_line2" />
+        </div>
+    </div>
+    <div class="hero6_mobile">
+        <h4>
             Transition Into a Tech <br />
             Career Of Interest Easily
-          </h1>
-          <p>
+        </h4>
+        <p>
             We offer a wide range of courses and programs tailored to your
             specific interests, helping you acquire
             <br />
             the expertise and confidence to pursue your desired career path and
             make a successful transition.
-          </p>
-          <img src="/images/transition.svg" class="hero6_img" />
-        </div>
-        <div class="hero6_background">
-          <img src="/images/line.svg" class="hero6_line" />
-          <img src="/images/line.svg" class="hero6_line2" />
-        </div>
-      </div>
-      <div class="hero6_mobile">
-        <h4>
-          Transition Into a Tech <br />
-          Career Of Interest Easily
-        </h4>
-        <p>
-          We offer a wide range of courses and programs tailored to your
-          specific interests, helping you acquire
-          <br />
-          the expertise and confidence to pursue your desired career path and
-          make a successful transition.
         </p>
-        <img src="/images/hero6mobile.svg"/>
-      </div>
-      <div class="hero7">
+        <img src="/images/hero6mobile.svg" />
+    </div>
+    <div class="hero7">
         <div class="hero7_container">
-          <div class="hero7_top">
-            <h1>Authorized Certification</h1>
-            <p>
-              Our certification courses are self-placed and well articulated,
-              with practice questions and <br />
-              answers, PDU's and Certifications offered upon completion.
-            </p>
-          </div>
-          <div class="hero7_bottom">
-            <img src="/images/apmg.svg" width="15%"/>
-            <img src="images/agile.svg" width="15%"/>
-            <img src="images/devops.svg" width="15%"/>
-            <img src="images/council.svg" width="15%"/>
-            <img src="/images/istqb.svg" width="15%"/>
-          </div>
+            <div class="hero7_top">
+                <h1>Authorized Certification</h1>
+                <p>
+                    Our certification courses are self-placed and well articulated,
+                    with practice questions and <br />
+                    answers, PDU's and Certifications offered upon completion.
+                </p>
+            </div>
+            <div class="hero7_bottom">
+                <img src="/images/apmg.svg" width="15%" />
+                <img src="images/agile.svg" width="15%" />
+                <img src="images/devops.svg" width="15%" />
+                <img src="images/council.svg" width="15%" />
+                <img src="/images/istqb.svg" width="15%" />
+            </div>
         </div>
-      </div>
-  
+    </div>
+
     <footer-component></footer-component>
 
-    <script src="logoScroll.js"></script>
-    <script>document.addEventListener('DOMContentLoaded', function () {
-        var logos = ['path/to/logo1.svg', 'path/to/logo2.svg', 'path/to/logo3.svg']; // Replace with actual paths
-        var logoContainer = document.getElementById('logoContainer');
-    
-        logos.forEach(function(logo, index) {
-            var img = document.createElement('img');
-            img.src = logo;
-            img.alt = 'Logo ' + index;
-            logoContainer.appendChild(img);
-    
-            var duplicateImg = img.cloneNode(true);
-            duplicateImg.alt = 'Logo ' + index + ' duplicate';
-            logoContainer.appendChild(duplicateImg);
-        });
-    });</script>
+    <script src="/javascript/carousel.js"></script>
+    <script src="/javascript/logoScroll.js">
+        </script>
 </body>
 
 
