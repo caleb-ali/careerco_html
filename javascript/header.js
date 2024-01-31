@@ -272,9 +272,9 @@ class Header extends HTMLElement {
                   <div>
                       <div class="navbardesktop">
                           <div class="careerco">
-                              <Link to="/">
+                              <a to="/">
                               <img src="images/careercologo.png" />
-                              </Link>
+                              </a>
                               <div>
                                   <img src="/images/search.svg" class="search_logo" />
                                   <input class="search_course" type="text" placeholder="search courses" />
@@ -284,16 +284,16 @@ class Header extends HTMLElement {
                               <div>
                                   <ul class="navbar_menu_desktop">
                                       <li>
-                                          <Link to="/">Home</Link>
+                                          <a class="active" href="#home">Home</a>
                                       </li>
                                       <li>
-                                          <Link to="/courses">Courses</Link>
+                                          <a to="/courses">Courses</a>
                                       </li>
                                       <li>
-                                          <Link to="/aboutme">About me</Link>
+                                          <a to="/aboutme">About me</a>
                                       </li>
                                       <li>
-                                          <Link to="/contactus">Contact us</Link>
+                                          <a to="/contactus">Contact us</a>
                                       </li>
                                   </ul>
                               </div>
@@ -310,9 +310,9 @@ class Header extends HTMLElement {
       
                       <div class="navbarmobile">
                           <div class="mobiletop">
-                              <Link to="/Hero">
+                              <a to="/Hero">
                               <img src="images/careercologo.png" class="mobile_logo" />
-                              </Link>
+                              </a>
                               <!-- <div onClick={toggleImage} class="">
                                   {isImage1Visible ?
                                   <GiHamburgerMenu /> :
@@ -327,22 +327,22 @@ class Header extends HTMLElement {
                           <div class="mobilebottom" id="mobilebottom">
                               <div class="mobile-btn-cnt">
                                   <button class="join">
-                                      <Link to="/join">Join for free</Link>
+                                      <a to="/join">Join for free</a>
                                   </button>
                               </div>
       
                               <ul class="navmenu">
                                   <li class="mobnavigations">
-                                      <Link to="/">Home</Link>
+                                      <a to="/">Home</a>
                                   </li>
                                   <li class="mobnavigations">
-                                      <Link to="/courses">Courses</Link>
+                                      <a to="/courses">Courses</a>
                                   </li>
                                   <li class="mobnavigations">
-                                      <Link to="/aboutme">About me</Link>
+                                      <a to="/aboutme">About me</a>
                                   </li>
                                   <li class="mobnavigations">
-                                      <Link to="/contactus">Contact us</Link>
+                                      <a to="/contactus">Contact us</a>
                                   </li>
                               </ul>
                           </div>
