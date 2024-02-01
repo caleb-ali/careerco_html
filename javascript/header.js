@@ -262,7 +262,7 @@ class Header extends HTMLElement {
           <!-- navigation -->
           <div>
               <div class="topblue">
-                  <img src="images/circle.png" width="3%" height="3%" class="circle" />
+                  <img src="/images/circle.png" width="3%" height="3%" class="circle" />
                   <p>
                       Discover your career path here
                       <span class="topbluespan"><a href="http://quiz.careerco.ca/" target="blank">Take a Quiz</a></span>
@@ -272,8 +272,8 @@ class Header extends HTMLElement {
                   <div>
                       <div class="navbardesktop">
                           <div class="careerco">
-                              <a to="/">
-                              <img src="images/careercologo.png" />
+                              <a href="/index.html">
+                              <img src="/images/careercologo.png" />
                               </a>
                               <div>
                                   <img src="/images/search.svg" class="search_logo" />
@@ -284,16 +284,17 @@ class Header extends HTMLElement {
                               <div>
                                   <ul class="navbar_menu_desktop">
                                       <li>
-                                          <a class="active" href="#home">Home</a>
+                                          <a class="active" href="/index.html">Home</a>
                                       </li>
                                       <li>
-                                          <a to="/courses">Courses</a>
+                                          <a href="/allcourses/allcourses.html">Courses</a>
+                                          
                                       </li>
                                       <li>
-                                          <a to="/aboutme">About me</a>
+                                          <a href="/aboutus/aboutus.html">About us</a>
                                       </li>
                                       <li>
-                                          <a to="/contactus">Contact us</a>
+                                          <a href="/contactus/contactus.html">Contact us</a>
                                       </li>
                                   </ul>
                               </div>
@@ -301,7 +302,8 @@ class Header extends HTMLElement {
                               <div class="">
                                   <button class="join">
                                       <a target="blank"
-                                          to="https://www.eventbrite.ca/e/it-consulting-intro-to-business-analysisproject-mgtscrum-masterqadata-tickets-674367289717">
+                                      href="https://www.eventbrite.ca/e/it-consulting-intro-to-business-analysisproject-mgtscrum-masterqadata-tickets-674367289717"
+                                        >
                                       Join a webinar</a>
                                   </button>
                               </div>
@@ -310,7 +312,7 @@ class Header extends HTMLElement {
       
                       <div class="navbarmobile">
                           <div class="mobiletop">
-                              <a to="/Hero">
+                          <a href="#home">
                               <img src="images/careercologo.png" class="mobile_logo" />
                               </a>
                               <!-- <div onClick={toggleImage} class="">

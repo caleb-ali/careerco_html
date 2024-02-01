@@ -239,9 +239,9 @@ class Footer extends HTMLElement {
                         <p>© 2023 Careerco. All rights reserved.</p>
                     </div>
                     <div class="socials">
-                        <img src="images/twitter.svg" width="15%" />
-                        <img src="images/linkedin.svg" width="15%" />
-                        <img src="images/facebook.svg" width="15%" />
+                        <img src="/images/twitter.svg" width="15%" />
+                        <img src="/images/linkedin.svg" width="15%" />
+                        <img src="/images/facebook.svg" width="15%" />
                     </div>
                 </div>
             </div>
