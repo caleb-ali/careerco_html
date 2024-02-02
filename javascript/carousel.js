@@ -153,7 +153,7 @@ document.addEventListener("DOMContentLoaded", function () {
                  </div>
                 </div>
                 <button class="btn2">
-                <a>Buy Course</a>
+                 <a class="active" href="">Buy Course</a>
                 </button>
  
               

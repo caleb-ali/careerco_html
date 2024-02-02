@@ -160,7 +160,7 @@ class Header extends HTMLElement {
               padding-left: 1rem;
               padding-right: 1rem;
               font-weight: 300;
-              font-size: medium;
+              font-size: small;
             }
           
             .circle {
@@ -187,8 +187,10 @@ class Header extends HTMLElement {
               flex-direction: row;
               align-items: center;
               justify-content: center;
-              gap: 16rem;
+              gap: 60%;
               margin-top: 0.5rem;
+              // margin-left: 10%;
+              // margin-right: 10%;
             }
           
             .mobilebottom {
