@@ -4,20 +4,6 @@ class Header extends HTMLElement {
   }
 
   connectedCallback() {
-    let isImage1Visible = true;
-
-    function toggleImage() {
-      isImage1Visible = !isImage1Visible;
-
-      var x = document.getElementById("mobilebottom");
-      if (x.style.display === "block") {
-        x.style.display = "none";
-        document.getElementById("menuIcon").textContent = "☰"; // Hamburger Icon
-      } else {
-        x.style.display = "block";
-        document.getElementById("menuIcon").textContent = "✖"; // Close Icon
-      }
-    }
 
     this.innerHTML = `
           <style>
@@ -315,38 +301,35 @@ class Header extends HTMLElement {
                       <div class="navbarmobile">
                           <div class="mobiletop">
                           <a href="#home">
-                              <img src="images/careercologo.png" class="mobile_logo" />
+                              <img src="/images/careercologo.png" class="mobile_logo" />
                               </a>
-                              <!-- <div onClick={toggleImage} class="">
-                                  {isImage1Visible ?
-                                  <GiHamburgerMenu /> :
-                                  <GrClose />}
-                              </div> -->
                               <div onclick="toggleImage()" class="">
-                                  <!-- <span id="menuIcon">&#9776;</span>  -->
-                                  <img id="menuIcon" src="images/hamburger.png"/>
+                                  <img id="hamburgericon" src="/images/hamburger.png" width="20px"/>
                               </div>
                           </div>
       
                           <div class="mobilebottom" id="mobilebottom">
                               <div class="mobile-btn-cnt">
                                   <button class="join">
-                                      <a to="/join">Join for free</a>
+                                  <a target="blank"
+                                  href="https://www.eventbrite.ca/e/it-consulting-intro-to-business-analysisproject-mgtscrum-masterqadata-tickets-674367289717"
+                                    >
+                                  Join a webinar</a>
                                   </button>
                               </div>
       
                               <ul class="navmenu">
                                   <li class="mobnavigations">
-                                      <a to="/">Home</a>
+                                      <a class="active" href="/index.html">Home</a>
                                   </li>
                                   <li class="mobnavigations">
-                                      <a to="/courses">Courses</a>
+                                      <a href="/allcourses/allcourses.html">Courses</a>
                                   </li>
                                   <li class="mobnavigations">
-                                      <a to="/aboutme">About me</a>
+                                      <a href="/aboutus/aboutus.html">About us</a>
                                   </li>
                                   <li class="mobnavigations">
-                                      <a to="/contactus">Contact us</a>
+                                      <a href="/contactus/contactus.html">Contact us</a>
                                   </li>
                               </ul>
                           </div>
@@ -354,10 +337,13 @@ class Header extends HTMLElement {
                   </div>
               </div>
           </div>
-      
-      
           </header>
+          
+          
+      
         `;
+
+   
   }
 }
 

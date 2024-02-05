@@ -13,22 +13,22 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       image: "/images/qa3.jpeg",
       title: "QA software Testing Practical",
-      price: "$200",
+      price: "$300",
     },
     {
       image: "/images/qa4.jpeg",
       title: "QA software Testing Practical",
-      price: "$200",
+      price: "$400",
     },
     {
       image: "/images/qa3.jpeg",
       title: "QA software Testing Practical",
-      price: "$200",
+      price: "$500",
     },
     {
       image: "/images/qa4.jpeg",
       title: "QA software Testing Practical",
-      price: "$200",
+      price: "$600",
     },
 
     // Add more items as needed
