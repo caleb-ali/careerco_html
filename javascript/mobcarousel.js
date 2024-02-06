@@ -92,11 +92,11 @@ document.addEventListener("DOMContentLoaded", function () {
                   font-weight: 600;
                 }
                 
-                .back_btn {
+                .mobback_btn {
                   margin-right: -1.5rem;
                 }
                 
-                .forward_btn {
+                .mobforward_btn {
                   margin-left: -1.5rem;
                 }
                 
@@ -131,6 +131,14 @@ document.addEventListener("DOMContentLoaded", function () {
                     display: flex;
                     flex-direction: row;
                     margin-top: 1rem;
+                  }
+
+                  .mobback_btn {
+                    margin-left: 1rem;
+                  }
+                  
+                  .mobforward_btn {
+                    margin-right: 1rem;
                   }
                 }
                 
