@@ -275,11 +275,11 @@ class Header extends HTMLElement {
                                           <a class="active" href="/index.html">Home</a>
                                       </li>
                                       <li>
-                                          <a href="/allcourses/allcourses.html">Courses</a>
+                                          <a href="/allcourses/allcourses.html">Course Schedule</a>
                                           
                                       </li>
                                       <li>
-                                          <a href="/aboutus/aboutus.html">About us</a>
+                                          <a href="/aboutus/aboutus.html">Resources</a>
                                       </li>
                                       <li>
                                           <a href="/contactus/contactus.html">Contact us</a>
@@ -323,10 +323,10 @@ class Header extends HTMLElement {
                                       <a class="active" href="/index.html">Home</a>
                                   </li>
                                   <li class="mobnavigations">
-                                      <a href="/allcourses/allcourses.html">Courses</a>
+                                      <a href="/allcourses/allcourses.html">Course Schedule</a>
                                   </li>
                                   <li class="mobnavigations">
-                                      <a href="/aboutus/aboutus.html">About us</a>
+                                      <a href="/aboutus/aboutus.html">Resources</a>
                                   </li>
                                   <li class="mobnavigations">
                                       <a href="/contactus/contactus.html">Contact us</a>
